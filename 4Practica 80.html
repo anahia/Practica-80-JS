@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<!--esta es mi practica 72-->
+
+<head>
+    <title>Practica 72</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        var val;
+        var pa;
+        val = prompt('Enter number with the format (999.99):', '');
+        pa = /^[0-9]{3}\.[0-9]{2}$/;
+        if (pa.test(val))
+            document.write('The value is correct.');
+        else
+            document.write('The value is not correct.');
+    </script>
+
+</body>
+
+</html>
